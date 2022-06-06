@@ -1,4 +1,4 @@
-# ILCOC: Class Incremental Learning Based on Identically Distributed Parallel One-Class Classifiers
+# IDPOC: Class Incremental Learning Based on Identically Distributed Parallel One-Class Classifiers
 
 ## Paper
 
