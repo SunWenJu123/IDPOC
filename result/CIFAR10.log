@@ -1,0 +1,143 @@
+nohup: 忽略输入
+
+=================================================================
+========================== CIFAR10 ==========================
+=================================================================
+
+Files already downloaded and verified
+Files already downloaded and verified
+==========	 task: 0	 categories: [0, 1] 	==========
+epoch: 1	 task: 0 	 category: 0 	 loss: 0.271180 	 posloss: 15.828894 	 negloss: 1.508355
+epoch: 5	 task: 0 	 category: 0 	 loss: 0.116272 	 posloss: 5.829216 	 negloss: 1.599822
+epoch: 10	 task: 0 	 category: 0 	 loss: 0.080447 	 posloss: 3.808491 	 negloss: 1.335278
+epoch: 15	 task: 0 	 category: 0 	 loss: 0.057217 	 posloss: 2.509890 	 negloss: 1.140724
+epoch: 20	 task: 0 	 category: 0 	 loss: 0.043871 	 posloss: 1.878226 	 negloss: 0.928910
+epoch: 25	 task: 0 	 category: 0 	 loss: 0.038902 	 posloss: 1.605079 	 negloss: 0.883974
+epoch: 30	 task: 0 	 category: 0 	 loss: 0.032080 	 posloss: 1.317389 	 negloss: 0.711360
+epoch: 35	 task: 0 	 category: 0 	 loss: 0.028319 	 posloss: 1.214577 	 negloss: 0.595568
+epoch: 40	 task: 0 	 category: 0 	 loss: 0.025998 	 posloss: 1.054675 	 negloss: 0.607254
+epoch: 45	 task: 0 	 category: 0 	 loss: 0.024079 	 posloss: 1.032902 	 negloss: 0.507770
+epoch: 50	 task: 0 	 category: 0 	 loss: 0.021099 	 posloss: 0.898337 	 negloss: 0.451875
+/home/sunwenju/code/incremental/visintIncre/models/idpoc.py:178: UserWarning: Casting complex values to real discards the imaginary part (Triggered internally at  /pytorch/aten/src/ATen/native/Copy.cpp:240.)
+  self.svd_models[category] = torch.from_numpy(n_eigVect).float()
+epoch: 1	 task: 0 	 category: 1 	 loss: 0.281762 	 posloss: 16.597792 	 negloss: 1.399627
+epoch: 5	 task: 0 	 category: 1 	 loss: 0.130108 	 posloss: 6.417978 	 negloss: 1.900294
+epoch: 10	 task: 0 	 category: 1 	 loss: 0.067747 	 posloss: 3.294089 	 negloss: 1.039541
+epoch: 15	 task: 0 	 category: 1 	 loss: 0.044495 	 posloss: 2.105732 	 negloss: 0.738262
+epoch: 20	 task: 0 	 category: 1 	 loss: 0.032134 	 posloss: 1.587033 	 negloss: 0.469304
+epoch: 25	 task: 0 	 category: 1 	 loss: 0.025862 	 posloss: 1.289042 	 negloss: 0.358180
+epoch: 30	 task: 0 	 category: 1 	 loss: 0.023384 	 posloss: 1.102709 	 negloss: 0.392699
+epoch: 35	 task: 0 	 category: 1 	 loss: 0.021485 	 posloss: 1.052919 	 negloss: 0.321867
+epoch: 40	 task: 0 	 category: 1 	 loss: 0.019717 	 posloss: 0.956888 	 negloss: 0.304891
+epoch: 45	 task: 0 	 category: 1 	 loss: 0.017913 	 posloss: 0.857068 	 negloss: 0.289179
+epoch: 50	 task: 0 	 category: 1 	 loss: 0.015950 	 posloss: 0.827696 	 negloss: 0.190714
+Accuracy for 1 task(s): 	 [Class-IL]: 98.45 % 	 [Task-IL]: 98.45 %
+Files already downloaded and verified
+Files already downloaded and verified
+==========	 task: 1	 categories: [2, 3] 	==========
+epoch: 1	 task: 1 	 category: 2 	 loss: 0.315497 	 posloss: 18.813112 	 negloss: 1.308361
+epoch: 5	 task: 1 	 category: 2 	 loss: 0.210704 	 posloss: 11.579010 	 negloss: 1.884157
+epoch: 10	 task: 1 	 category: 2 	 loss: 0.187248 	 posloss: 10.027166 	 negloss: 1.952219
+epoch: 15	 task: 1 	 category: 2 	 loss: 0.170481 	 posloss: 9.033490 	 negloss: 1.850760
+epoch: 20	 task: 1 	 category: 2 	 loss: 0.157088 	 posloss: 8.033868 	 negloss: 2.010401
+epoch: 25	 task: 1 	 category: 2 	 loss: 0.139531 	 posloss: 6.955255 	 negloss: 1.949138
+epoch: 30	 task: 1 	 category: 2 	 loss: 0.129984 	 posloss: 6.564192 	 negloss: 1.727020
+epoch: 35	 task: 1 	 category: 2 	 loss: 0.113900 	 posloss: 5.574448 	 negloss: 1.698217
+epoch: 40	 task: 1 	 category: 2 	 loss: 0.111543 	 posloss: 5.223990 	 negloss: 1.909356
+epoch: 45	 task: 1 	 category: 2 	 loss: 0.108023 	 posloss: 5.181750 	 negloss: 1.723127
+epoch: 50	 task: 1 	 category: 2 	 loss: 0.101148 	 posloss: 5.076988 	 negloss: 1.390274
+epoch: 1	 task: 1 	 category: 3 	 loss: 0.320090 	 posloss: 18.983459 	 negloss: 1.474369
+epoch: 5	 task: 1 	 category: 3 	 loss: 0.218797 	 posloss: 12.157489 	 negloss: 1.815890
+epoch: 10	 task: 1 	 category: 3 	 loss: 0.196490 	 posloss: 10.687663 	 negloss: 1.874251
+epoch: 15	 task: 1 	 category: 3 	 loss: 0.180770 	 posloss: 9.618568 	 negloss: 1.933346
+epoch: 20	 task: 1 	 category: 3 	 loss: 0.168638 	 posloss: 8.726256 	 negloss: 2.048741
+epoch: 25	 task: 1 	 category: 3 	 loss: 0.148382 	 posloss: 7.568855 	 negloss: 1.912996
+epoch: 30	 task: 1 	 category: 3 	 loss: 0.132394 	 posloss: 6.571048 	 negloss: 1.896505
+epoch: 35	 task: 1 	 category: 3 	 loss: 0.122085 	 posloss: 5.868575 	 negloss: 1.930210
+epoch: 40	 task: 1 	 category: 3 	 loss: 0.109455 	 posloss: 5.016753 	 negloss: 1.953607
+epoch: 45	 task: 1 	 category: 3 	 loss: 0.103692 	 posloss: 4.850132 	 negloss: 1.775978
+epoch: 50	 task: 1 	 category: 3 	 loss: 0.090329 	 posloss: 4.122940 	 negloss: 1.656929
+Accuracy for 2 task(s): 	 [Class-IL]: 74.3 % 	 [Task-IL]: 93.92 %
+Files already downloaded and verified
+Files already downloaded and verified
+==========	 task: 2	 categories: [4, 5] 	==========
+epoch: 1	 task: 2 	 category: 4 	 loss: 0.309818 	 posloss: 18.275126 	 negloss: 1.533052
+epoch: 5	 task: 2 	 category: 4 	 loss: 0.189228 	 posloss: 9.963929 	 negloss: 2.128948
+epoch: 10	 task: 2 	 category: 4 	 loss: 0.165082 	 posloss: 8.448462 	 negloss: 2.108627
+epoch: 15	 task: 2 	 category: 4 	 loss: 0.145753 	 posloss: 7.146878 	 negloss: 2.169147
+epoch: 20	 task: 2 	 category: 4 	 loss: 0.126643 	 posloss: 5.914419 	 negloss: 2.171537
+epoch: 25	 task: 2 	 category: 4 	 loss: 0.106694 	 posloss: 5.058124 	 negloss: 1.760979
+epoch: 30	 task: 2 	 category: 4 	 loss: 0.094501 	 posloss: 4.274837 	 negloss: 1.750203
+epoch: 35	 task: 2 	 category: 4 	 loss: 0.085509 	 posloss: 3.816412 	 negloss: 1.642090
+epoch: 40	 task: 2 	 category: 4 	 loss: 0.077995 	 posloss: 3.580698 	 negloss: 1.407801
+epoch: 45	 task: 2 	 category: 4 	 loss: 0.080426 	 posloss: 3.476946 	 negloss: 1.659261
+epoch: 50	 task: 2 	 category: 4 	 loss: 0.066192 	 posloss: 3.055662 	 negloss: 1.171241
+epoch: 1	 task: 2 	 category: 5 	 loss: 0.305912 	 posloss: 18.238855 	 negloss: 1.319060
+epoch: 5	 task: 2 	 category: 5 	 loss: 0.193137 	 posloss: 10.462622 	 negloss: 1.880959
+epoch: 10	 task: 2 	 category: 5 	 loss: 0.156039 	 posloss: 8.065143 	 negloss: 1.908856
+epoch: 15	 task: 2 	 category: 5 	 loss: 0.129735 	 posloss: 6.504248 	 negloss: 1.788529
+epoch: 20	 task: 2 	 category: 5 	 loss: 0.110071 	 posloss: 5.561402 	 negloss: 1.477710
+epoch: 25	 task: 2 	 category: 5 	 loss: 0.092083 	 posloss: 4.559245 	 negloss: 1.329566
+epoch: 30	 task: 2 	 category: 5 	 loss: 0.085274 	 posloss: 4.293210 	 negloss: 1.150611
+epoch: 35	 task: 2 	 category: 5 	 loss: 0.074919 	 posloss: 3.707281 	 negloss: 1.080884
+epoch: 40	 task: 2 	 category: 5 	 loss: 0.072875 	 posloss: 3.579284 	 negloss: 1.080299
+epoch: 45	 task: 2 	 category: 5 	 loss: 0.060658 	 posloss: 2.913435 	 negloss: 0.968418
+epoch: 50	 task: 2 	 category: 5 	 loss: 0.058233 	 posloss: 2.903099 	 negloss: 0.821906
+Accuracy for 3 task(s): 	 [Class-IL]: 64.45 % 	 [Task-IL]: 93.93 %
+Files already downloaded and verified
+Files already downloaded and verified
+==========	 task: 3	 categories: [6, 7] 	==========
+epoch: 1	 task: 3 	 category: 6 	 loss: 0.285100 	 posloss: 16.869703 	 negloss: 1.367613
+epoch: 5	 task: 3 	 category: 6 	 loss: 0.106455 	 posloss: 5.114442 	 negloss: 1.689199
+epoch: 10	 task: 3 	 category: 6 	 loss: 0.067354 	 posloss: 3.007077 	 negloss: 1.297112
+epoch: 15	 task: 3 	 category: 6 	 loss: 0.053099 	 posloss: 2.393021 	 negloss: 1.001630
+epoch: 20	 task: 3 	 category: 6 	 loss: 0.048924 	 posloss: 2.301446 	 negloss: 0.829492
+epoch: 25	 task: 3 	 category: 6 	 loss: 0.043974 	 posloss: 1.945611 	 negloss: 0.862368
+epoch: 30	 task: 3 	 category: 6 	 loss: 0.036560 	 posloss: 1.781629 	 negloss: 0.555225
+epoch: 35	 task: 3 	 category: 6 	 loss: 0.027656 	 posloss: 1.221825 	 negloss: 0.528704
+epoch: 40	 task: 3 	 category: 6 	 loss: 0.030786 	 posloss: 1.365651 	 negloss: 0.601464
+epoch: 45	 task: 3 	 category: 6 	 loss: 0.028180 	 posloss: 1.284696 	 negloss: 0.515129
+epoch: 50	 task: 3 	 category: 6 	 loss: 0.022926 	 posloss: 1.015974 	 negloss: 0.442580
+epoch: 1	 task: 3 	 category: 7 	 loss: 0.291952 	 posloss: 17.436640 	 negloss: 1.230773
+epoch: 5	 task: 3 	 category: 7 	 loss: 0.106381 	 posloss: 5.195872 	 negloss: 1.599910
+epoch: 10	 task: 3 	 category: 7 	 loss: 0.066673 	 posloss: 3.219868 	 negloss: 1.030546
+epoch: 15	 task: 3 	 category: 7 	 loss: 0.051919 	 posloss: 2.491929 	 negloss: 0.829761
+epoch: 20	 task: 3 	 category: 7 	 loss: 0.043690 	 posloss: 2.063291 	 negloss: 0.722747
+epoch: 25	 task: 3 	 category: 7 	 loss: 0.041176 	 posloss: 1.889838 	 negloss: 0.743842
+epoch: 30	 task: 3 	 category: 7 	 loss: 0.041386 	 posloss: 2.047196 	 negloss: 0.600666
+epoch: 35	 task: 3 	 category: 7 	 loss: 0.025546 	 posloss: 1.255207 	 negloss: 0.364882
+epoch: 40	 task: 3 	 category: 7 	 loss: 0.028554 	 posloss: 1.360377 	 negloss: 0.460671
+epoch: 45	 task: 3 	 category: 7 	 loss: 0.022186 	 posloss: 1.016585 	 negloss: 0.399983
+epoch: 50	 task: 3 	 category: 7 	 loss: 0.022663 	 posloss: 1.033899 	 negloss: 0.415432
+Accuracy for 4 task(s): 	 [Class-IL]: 61.41 % 	 [Task-IL]: 94.94 %
+Files already downloaded and verified
+Files already downloaded and verified
+==========	 task: 4	 categories: [8, 9] 	==========
+epoch: 1	 task: 4 	 category: 8 	 loss: 0.299449 	 posloss: 17.527901 	 negloss: 1.610428
+epoch: 5	 task: 4 	 category: 8 	 loss: 0.120396 	 posloss: 5.905961 	 negloss: 1.791409
+epoch: 10	 task: 4 	 category: 8 	 loss: 0.086268 	 posloss: 4.070559 	 negloss: 1.426951
+epoch: 15	 task: 4 	 category: 8 	 loss: 0.067996 	 posloss: 3.154157 	 negloss: 1.169418
+epoch: 20	 task: 4 	 category: 8 	 loss: 0.053192 	 posloss: 2.221071 	 negloss: 1.178597
+epoch: 25	 task: 4 	 category: 8 	 loss: 0.049961 	 posloss: 2.188798 	 negloss: 1.004834
+epoch: 30	 task: 4 	 category: 8 	 loss: 0.044230 	 posloss: 1.992164 	 negloss: 0.835239
+epoch: 35	 task: 4 	 category: 8 	 loss: 0.033381 	 posloss: 1.536102 	 negloss: 0.591913
+epoch: 40	 task: 4 	 category: 8 	 loss: 0.036509 	 posloss: 1.601188 	 negloss: 0.735183
+epoch: 45	 task: 4 	 category: 8 	 loss: 0.035349 	 posloss: 1.668509 	 negloss: 0.593258
+epoch: 50	 task: 4 	 category: 8 	 loss: 0.033660 	 posloss: 1.526227 	 negloss: 0.627555
+epoch: 1	 task: 4 	 category: 9 	 loss: 0.289967 	 posloss: 17.254818 	 negloss: 1.291105
+epoch: 5	 task: 4 	 category: 9 	 loss: 0.124957 	 posloss: 6.133145 	 negloss: 1.852845
+epoch: 10	 task: 4 	 category: 9 	 loss: 0.079857 	 posloss: 3.753388 	 negloss: 1.342053
+epoch: 15	 task: 4 	 category: 9 	 loss: 0.065130 	 posloss: 2.944856 	 negloss: 1.221789
+epoch: 20	 task: 4 	 category: 9 	 loss: 0.051927 	 posloss: 2.387277 	 negloss: 0.934649
+epoch: 25	 task: 4 	 category: 9 	 loss: 0.042840 	 posloss: 1.933658 	 negloss: 0.792967
+epoch: 30	 task: 4 	 category: 9 	 loss: 0.036587 	 posloss: 1.665764 	 negloss: 0.673326
+epoch: 35	 task: 4 	 category: 9 	 loss: 0.038873 	 posloss: 1.736252 	 negloss: 0.748858
+epoch: 40	 task: 4 	 category: 9 	 loss: 0.035910 	 posloss: 1.629293 	 negloss: 0.668212
+epoch: 45	 task: 4 	 category: 9 	 loss: 0.031369 	 posloss: 1.448645 	 negloss: 0.557068
+epoch: 50	 task: 4 	 category: 9 	 loss: 0.026623 	 posloss: 1.240103 	 negloss: 0.460585
+Accuracy for 5 task(s): 	 [Class-IL]: 55.89 % 	 [Task-IL]: 95.37 %
+Accuracy for 1 task(s): 	 [Class-IL]: 98.45 % 	 [Task-IL]: 98.45 %
+Accuracy for 2 task(s): 	 [Class-IL]: 74.3 % 	 [Task-IL]: 93.92 %
+Accuracy for 3 task(s): 	 [Class-IL]: 64.45 % 	 [Task-IL]: 93.93 %
+Accuracy for 4 task(s): 	 [Class-IL]: 61.41 % 	 [Task-IL]: 94.94 %
+Accuracy for 5 task(s): 	 [Class-IL]: 55.89 % 	 [Task-IL]: 95.37 %
