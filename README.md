@@ -29,6 +29,13 @@ Official repository of Class Incremental Learning Based on Identically Distribut
 | DisCOIL | **96.69** | 44.54   | 27.50     | 19.75         |
 | IDPOC   | 87.51     | 55.50   | **29.08** | **22.55**     |
 
+## Requirement
+
++ numpy==1.16.4
++ Pillow==6.1.0
++ torch==1.3.1
++ torchvision==0.4.2
+
 ## Related repository
 
 https://github.com/aimagelab/mammoth
