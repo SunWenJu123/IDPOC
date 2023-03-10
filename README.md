@@ -4,6 +4,8 @@
 
 Official repository of Class Incremental Learning Based on Identically Distributed Parallel One-Class Classifiers
 
+![geometry](img/README/geometry.png)
+
 ## Setup
 
 -   Use `./utils/main.py` to run experiments.
@@ -28,6 +30,10 @@ Official repository of Class Incremental Learning Based on Identically Distribut
 | ILCOC   | 86.05     | 38.40   | 24.39     | 16.97         |
 | DisCOIL | **96.69** | 44.54   | 27.50     | 19.75         |
 | IDPOC   | 87.51     | 55.50   | **29.08** | **22.55**     |
+
+## Visualizaiton of score distributions
+
+![score](img/README/score.png)
 
 ## Requirement
 
