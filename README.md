@@ -4,6 +4,8 @@
 
 Official repository of Class Incremental Learning Based on Identically Distributed Parallel One-Class Classifiers
 
+Published at **NeuroComputing**
+
 ![geometry](img/README/geometry.png)
 
 ## Setup
@@ -45,3 +47,23 @@ Official repository of Class Incremental Learning Based on Identically Distribut
 ## Related repository
 
 https://github.com/aimagelab/mammoth
+
+## Citation
+
+@article{sun2023class,
+
+  title={Class Incremental Learning based on Identically Distributed Parallel One-Class Classifiers},
+  
+  author={Sun, Wenju and Li, Qingyong and Zhang, Jing and Wang, Wen and Geng, YangLi-ao},
+  
+  journal={Neurocomputing},
+  
+  volume={556},
+  
+  pages={126579},
+  
+  year={2023},
+  
+  publisher={Elsevier}
+  
+}
